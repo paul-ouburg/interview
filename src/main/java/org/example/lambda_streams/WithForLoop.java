@@ -7,7 +7,7 @@ import java.util.List;
 public class WithForLoop {
     public static void main(String[] args) {
 
-        List<String> items = List.of("apple", "banana", "avocado", "cherry", "apricot", "blueberry");
+        List<String> items = List.of("appel", "banaan", "avocado", "kers", "ananas", "braam");
         List<String> filteredItems = filterAndSortItemsStartingWithA(items);
 
         System.out.println(filteredItems);
