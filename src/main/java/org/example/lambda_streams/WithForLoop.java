@@ -13,6 +13,7 @@ public class WithForLoop {
         System.out.println(filteredItems);
     }
 
+    // This method is imparative, refactor it so that it becomes declarative (use Stream API and lambda functions)
     public static List<String> filterAndSortItemsStartingWithA(List<String> items) {
         List<String> filteredItems = new ArrayList<>();
 
